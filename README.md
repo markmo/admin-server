@@ -19,7 +19,7 @@ Selected http://silex.sensiolabs.org/ because:
 * Supports a number of more advanced use cases with available service providers (plugins)
 * Easily generate JSON or XML
 
-# To Install
+## To Install
 
 Dependencies:
 
@@ -61,13 +61,13 @@ Then install the Silex dependencies under the project dir:
 
 Routes are defined in app/app.php
 
-# Debug PHP using Xdebug and IntelliJ
+## Debug PHP using Xdebug and IntelliJ
 
-* Download the Xdebug prebuilt binaries or sources. You will need to have xdebug.so placed in your lib path
+Download the Xdebug prebuilt binaries or sources. You will need to have xdebug.so placed in your lib path
 
-* Detailed PhpStorm instructions can be found here: http://confluence.jetbrains.com/display/PhpStorm/Xdebug+Installation+Guide
+Detailed PhpStorm instructions can be found here: http://confluence.jetbrains.com/display/PhpStorm/Xdebug+Installation+Guide
 
-* Edit php.ini to enable xdebug.so (OS X Example)
+Edit php.ini to enable xdebug.so (OS X Example):
 
     [xdebug]
     zend_extension="/usr/lib/php/extensions/no-debug-non-zts-20090626/xdebug.so"
