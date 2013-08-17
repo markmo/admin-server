@@ -82,7 +82,7 @@ $app->register(new Silex\Provider\DoctrineServiceProvider(), array(
     'driver' => 'pdo_mysql',
     'host' => 'localhost',
     'dbname' => 'tipper',
-    'user' => 'root',
+    'user' => '',
     'charset' => 'utf8',
   ),
 ));
