@@ -32,7 +32,7 @@ $app['event.repository'] = $app->share(function ($app) {
     $app['event.converter'],        // converts between various data formats
     $app['monolog'],                // logging utility
     $app['debug'],                  // debug flag
-    25                              // default page size
+    12                              // default page size
   );
 });
 
@@ -59,7 +59,7 @@ $app['market.repository'] = $app->share(function ($app) {
     $app['market.converter'],       // converts between various data formats
     $app['monolog'],                // logging utility
     $app['debug'],                  // debug flag
-    25                              // default page size
+    12                              // default page size
   );
 });
 

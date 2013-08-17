@@ -63,7 +63,7 @@ Routes are defined in app/app.php
 
 ## Debug PHP using Xdebug and IntelliJ
 
-Download the Xdebug prebuilt binaries or sources. You will need to have xdebug.so placed in your lib path
+Download the Xdebug prebuilt binaries or sources. You will need to have xdebug.so placed in your lib path.
 
 Detailed PhpStorm instructions can be found here: http://confluence.jetbrains.com/display/PhpStorm/Xdebug+Installation+Guide
 

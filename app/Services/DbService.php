@@ -28,7 +28,7 @@ class DbService implements iRepository {
                               $converter,
                               $logger,
                               $debug = false,
-                              $defaultPageSize = 15
+                              $defaultPageSize = 12
   ) {
     $this->db = $db;
     $this->converter = $converter;

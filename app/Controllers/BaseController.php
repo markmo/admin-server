@@ -25,7 +25,7 @@ abstract class BaseController {
 
   protected $debug;
 
-  protected $pageSize = 15;
+  protected $pageSize = 12;
 
   public function __construct(iRepository $repo,
                               $converter,
