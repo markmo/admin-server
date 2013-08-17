@@ -1,0 +1,10 @@
+{
+  "require": {
+    "silex/silex": "1.*",
+    "doctrine/dbal": "*",
+    "jdesrosiers/silex-swagger-provider": "dev-master",
+    "monolog/monolog": ">=1.0.0",
+    "symfony/serializer": "2.3.*",
+    "symfony/validator": "~2.3"
+  }
+}
